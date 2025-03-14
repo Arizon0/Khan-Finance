@@ -3,12 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha Página Básica</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Imóveis de Luxo</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Bem-vindo ao meu site!</h1>
-    <p>Este é um projeto simples hospedado no Vercel.</p>
-    <script src="script.js"></script>
-</body>
-</html>
+    <header class="bg-primary text-white text-center py-5">
+        <h1>Imóveis de Luxo</h1>
+        <p>Encontre sua casa dos sonhos</p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Início</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#catalogo">Catálogo</a></li>
+                <li class="nav-item"><a class="nav-link" href="#sobre">Sobre Nós</a></li>
+                <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="catalogo" class="container my-5">
+        <h2 class="text-center">Catálogo de Imóveis</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300" class="card-img-top" alt="Casa Luxo 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Casa de Luxo 1</h5>
+                        <p class="card-text">R$ 2.500.000</p>
+                        <a href="#" class="btn btn-primary">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300" class="card-img-top" alt="Apartamento Luxo 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Apartamento de Luxo 1</h5>
+                        <p class="card-text">R$ 1.800.000</p>
+                        <a href="#" class="btn btn-primary">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300" class="card-img-top" alt="Casa Luxo 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Casa de Luxo 2</h5>
+                        <p class="card-text">R$ 3.200.000</p>
+                        <a href="#" class="btn btn-primary">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="container my-5">
+        <h2 class="text-center">Sobre Nós</h2>
+        <p class="text-center">Somos uma imobiliária especializada em imóveis de luxo, oferecendo as melhores opções para nossos clientes. Nossa equipe é composta por profissionais experientes que conhecem o mercado e estão prontos para ajudar você a encontrar a propriedade ideal.</p>
+    </section>
+
+    <section id="blog" class="container my-5">
+        <h2 class="text-center">Blog</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300" class="card-img-top" alt="Blog Post 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Tendências do Mercado Imobiliário de Luxo</h5>
+                        <p class="card-text">Descubra as últimas tendências e como elas podem impactar sua compra.</p>
+                        <a href="#" class="btn btn-primary">Leia Mais</a>
+                    </div>
+                </div>
+            </div>
+            <div
